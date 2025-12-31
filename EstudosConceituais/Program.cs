@@ -17,11 +17,13 @@ namespace MyApp
             ListMethods _listMethods = new ListMethods();
             StackMethods _stackMethods = new StackMethods();
             QueueMethods _queueMethods = new QueueMethods();
+            SortMethods _sortMethods = new SortMethods();
 
             Console.WriteLine("Olá, seja bem vindo ao projeto de estudos conceituais. Por onde deseja começar? Digite o número correspondente à sua escolha:");
             Console.WriteLine("1 - Collections");
             Console.WriteLine("2 - Stack(Pilha)");
             Console.WriteLine("3 - Queue(Fila)");
+            Console.WriteLine("3 - Sort(Ordenação)");
             Console.WriteLine("5 - Encerrar");
             
             try
@@ -42,6 +44,9 @@ namespace MyApp
                         break;
                     case "3":
                         _queueMethods.QueueMenu();
+                        break;
+                    case "4":
+                        _sortMethods.SortMenu();
                         break;
                     case "5":
                         break;

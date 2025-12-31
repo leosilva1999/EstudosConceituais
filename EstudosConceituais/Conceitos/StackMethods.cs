@@ -113,10 +113,6 @@ namespace EstudosConceituais.Conceitos
             Console.WriteLine($"String removida: {stack.Peek()}");
             stack.Pop();
             Console.WriteLine($"String atualmente no topo da  pilha: {stack.Peek()}");           
-        }
-
-       
-
-        
+        }       
     }
 }
